@@ -40,7 +40,7 @@ gunicorn_django -b 0.0.0.0:8000
 ```
 
 当然 正常的合理的运行方法是写个sh脚本来运行 like it
-```dash
+```bash
  #!/bin/bash
   set -e
   LOGFILE=/var/log/gunicorn/hello.log

@@ -17,7 +17,7 @@
 首先 你要用virtualenv用于创建独立的Python环境 使多个python多个Python相互独立，互不影响
 你比较高大上 用virtualenvwrapper   也没关系。。。
 
-```dash
+```bash
 virtualenv --no-site-packages test
   cd test
   source bin/activate
@@ -35,7 +35,7 @@ Gunicorn“绿色独角兽”是一个被广泛使用的高性能的Python WSGI 
  与django搭配 效果拔群
 Testing Django with Gunicorn is as simple as: 
 我们先来个simple Example来运行django
-```dash
+```bash
 gunicorn_django -b 0.0.0.0:8000
 ```
 
